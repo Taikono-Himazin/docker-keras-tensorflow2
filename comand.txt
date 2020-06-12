@@ -1,3 +1,0 @@
-sudo docker run -p 8888:8888 -v /mnt/DESKTOP-TOKU02:/DESKTOP-TOKU02 -v /mnt/server:/SERVER -v /home/nagayama/jupyter:/jupyter  --runtime=nvidia -it tensor-keras2 bash
-
-sudo docker build -t tensor-keras-test /mnt/DESKTOP-TOKU02/env
