@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.0.1-gpu-py3-jupyter
+FROM tensorflow/tensorflow:2.2.0-gpu-jupyter
 LABEL maintainer='username'
 
 WORKDIR /jupyter
