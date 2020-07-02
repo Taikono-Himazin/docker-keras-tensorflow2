@@ -26,4 +26,4 @@ COPY jupyter_notebook_config.py ../root/.jupyter/
 RUN jupyter nbextensions_configurator enable --user
 RUN jupyter contrib nbextension install --user
 
-CMD  ["jupyter notebook --notebook-dir=/jupyter --ip 0.0.0.0 --port 8888 --no-browser --allow-root"]
+# CMD  ["jupyter notebook --notebook-dir=/jupyter --ip 0.0.0.0 --port 8888 --no-browser --allow-root"]
